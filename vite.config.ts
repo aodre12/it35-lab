@@ -8,8 +8,9 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [
     react(),
-    legacy()
+    legacy() 
   ],
+  base : "it35-lab",
   test: {
     globals: true,
     environment: 'jsdom',
