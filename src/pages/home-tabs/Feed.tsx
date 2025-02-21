@@ -20,6 +20,16 @@ import {
           </IonToolbar>
         </IonHeader>
         <IonContent fullscreen>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            height: '100%',
+          }}
+        >
+        My name is Audrey Abigail not Abigali, it's Abilgail!
+        </div>
         </IonContent>
       </IonPage>
     );
